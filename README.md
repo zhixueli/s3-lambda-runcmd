@@ -8,7 +8,7 @@
 
 ### 1. 为lambda创建execution role，允许lambda调用System Manager run command，除了为这个role添加基本的AWSLambdaBasicExecutionRole managed policy之外，需要额外添加如下policy：
 
-、、、
+``` 
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -20,7 +20,7 @@
         }
     ]
 }
-、、、
+``` 
 
 ### 2. 创建lambda函数（代码如src目录下所示），并将lambda execution role配置为第1步骤中所创建的role
 
