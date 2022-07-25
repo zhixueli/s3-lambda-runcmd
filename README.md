@@ -2,7 +2,7 @@
 
 ## 方案架构
 
-![alt text](https://github.com/zhixueli/s3-lambda-runcmd/blob/main/img/arch.jpeg?raw=true)
+![alt text](https://github.com/zhixueli/s3-lambda-runcmd/blob/main/img/architecture.jpg?raw=true)
 
 ## 操作步骤
 
